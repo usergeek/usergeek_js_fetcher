@@ -1,0 +1,17 @@
+{
+  "name": "usergeek_js_fetcher",
+  "description": "Typescript reference implementation that demonstrates how to fetch DAU, WAU, MAU and New Users metrics from Usergeek",
+  "version": "0.0.1",
+  "author": "Usergeek <support@usergeek.com>",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "prebuild": "rm -rf build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@dfinity/identity-secp256k1": "^1.2.0",
+    "@types/node": "^20.11.30",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.3"
+  }
+}

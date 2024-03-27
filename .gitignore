@@ -1,0 +1,7 @@
+.env
+.idea
+
+build
+node_modules
+
+output*.json
